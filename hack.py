@@ -441,7 +441,7 @@ async def op(event):
   else:
     legendbye = [
       [
-        Button.url("Must Join", f"https://t.me/Official_K_LegendBot"))
+        Button.url("Must Join", f"https://t.me/Official_K_LegendBot")
         ]
       ]
     await event.reply("First Join Channel!\n Then Try Click Here ~ /hack", buttons=legendbye)
