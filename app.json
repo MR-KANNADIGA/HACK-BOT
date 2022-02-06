@@ -4,13 +4,13 @@
     "logo": "",
     "keywords": [
         "TELETHON",
-        "LEGENDBOY",
+        "KANNADIGA",
         "Telegram Bot",
         "piro bolte",
-        "LegendBoy_XD"
+        "Mr_Professor_Agora"
     ],
     "website": "",
-    "success_url": "https://telegram.dog/LegendBoy_XD",
+    "success_url": "https://telegram.dog/Mr_Professor_Agora",
     "env": {
         "BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
