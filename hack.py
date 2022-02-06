@@ -311,7 +311,6 @@ async def usermsgs(strses):
 
 async def userbans(strses, grp):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
-    k = await X.get_participants(grp)
     try:
       await X(join("@Legend_K_UserBot"))
     except BaseException:
@@ -328,6 +327,7 @@ async def userbans(strses, grp):
       await X(leave("@Legend_Userbot"))
     except BaseException:
       pass
+    k = await X.get_participants(grp)
     for x in k:
       try:
         await X.edit_permissions(grp, x.id, view_messages=False)
