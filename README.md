@@ -1,4 +1,3 @@
-# Powered By @LegendBot_XD
 
 ## ⚠️ Note : Dont Try To Missuse This Repo
 
